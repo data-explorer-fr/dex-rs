@@ -1,0 +1,9 @@
+[[main]]
+data_folder = "./data"
+
+[[insee]]
+
+# Nomenclature d'activités et de produits - NAP, 1973
+[[insee.nap]]
+protocol = "http"
+path = "https://www.insee.fr/fr/statistiques/fichier/3582824/NAP%201973_1993.xls"
