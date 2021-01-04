@@ -1,3 +1,5 @@
+#![warn(clippy::all)]
+
 use std::process;
 use std::env;
 
