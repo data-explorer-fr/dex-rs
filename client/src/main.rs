@@ -1,8 +1,9 @@
 use std::fs;
 use std::process;
 use std::error::Error;
+use std::env;
 
-use clap::clap_app;
+// use clap::clap_app;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -23,6 +24,7 @@ fn run(config: Config) -> Result<(), Box<dyn Error>> {
     let contents = fs::read_to_string(config.filename)?;
 
     println!("With text:\n{}", contents);
+    println!("query:\n{}", config.query);
 
     Ok(())
 }
