@@ -1,1 +1,1 @@
-pub mod "dex-rs";
+pub mod "dex-client";

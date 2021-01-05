@@ -1,2 +1,2 @@
 [workspace]
-members = [ "sources", "client", "server" ]
+members = [ "sources", "client", "server", "extract" ]
